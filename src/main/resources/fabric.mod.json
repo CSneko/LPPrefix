@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lpprefix",
+  "version": "${version}",
+  "name": "LPPrefix",
+  "description": "喵喵喵~",
+  "authors": [
+    "CrystalNeko"
+  ],
+  "contact": {
+    "repo": "https://github.com/CSNeko/LPPrefix",
+    "issues": "https://github.com/CSNeko/LPPrefix/issues",
+    "homepage": "https://modrinth.com/mods/LPPrefix"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.crystalneko.lpprefix.client.LPPrefixClient"
+    ],
+    "main": [
+      "com.crystalneko.lpprefix.LPPrefix"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*",
+    "luckperms": "*",
+    "ctlib": "*"
+  }
+}
